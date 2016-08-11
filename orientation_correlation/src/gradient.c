@@ -19,11 +19,11 @@
  * @param width Number of columns in the image
  * @param height Number of rows in the image
  * 
- * returns Pointer to the partial in the \a x direction or
+ * returns Pointer to the partial in the  x direction or
  * NULL if the malloc fails.
  */
 double *di_dx( double *img, int width, int height )
-{
+ {
    double *der, *p, *q ;
    int i, j ;
 
@@ -49,7 +49,7 @@ double *di_dx( double *img, int width, int height )
  * @param width Number of columns in the image
  * @param height Number of rows in the image
  * 
- * \returns Pointer to the partial in the \a y direction or
+ * @returns Pointer to the partial in the  y direction or
  * NULL if the malloc fails.
  */
 double *di_dy( double *img, int width, int height )
